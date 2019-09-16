@@ -1,0 +1,45 @@
+## Useful references and links for using R
+
+* Practical R for Epidemiologists - https://practical-r.org
+
+## R packages that we will usually need
+
+### To install packages, use the following function:
+
+install.packages("name-of-package-in-quotes")
+
+zscorer - calculates anthropometric z-score (WHZ, HAZ, WAZ)
+bbw - estimator using blocked weighted bootstrap
+readxl - read Excel files into R
+shiny - run Shiny Apps in R
+shinydashboard - run Shiny Apps that uses the shinydashboard package
+remotes - functions to install packages from non-CRAN sources
+
+More packages will need to be installed over time but we'll install those set by set.
+
+### To install packages from non-CRAN sources
+
+install_github("name-of-github-repo/name-of-package")
+
+anthrocheckr - R package available in GitHub to use in calculating performance in anthropometric standardisation tests
+
+install_github("nutriverse/anthrocheckr")
+
+
+## ODK notes
+
+Useful references:
+
+* https://xlsform.org
+
+Some take away points on ODK:
+
+* Complexity of survey questionnaire is affected by the amount of skip logic and pattern required. The more skips and special considerations required by the survey, the more complex the form as implemented in ODK becomes
+
+* XLSform is the format used to allow the use of the Excel spreadsheet in developing ODK forms. XLSforms are then converted into XML format to be able to implement the questionnaire in ODK
+
+
+
+
+
+
