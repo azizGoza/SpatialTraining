@@ -7,7 +7,7 @@ sleacData <- read.csv(file = "westPokotSLEACdata.csv")
 
 sleacDataX <- read.table(file = "westPokotSLEACdata.csv", header = TRUE, sep = ",")
 
-## Practice reading map data - We practice using two functions - readShapeSpatial()
+## Practice reading map data - We practice using two functions - readShapeSpatial() in maptools
 ## and readOGR() - to read spatial data
 
 library(rgeos)
